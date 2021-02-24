@@ -29,7 +29,7 @@ enum CellState{
 };
 
 /// Rappresenta una cella in battaglia navale
-struct Cell{
+typedef struct Cell{
     /// Colonna della cella
     unsigned int row;
     /// Riga della cella
@@ -38,10 +38,10 @@ struct Cell{
     enum CellState state;
     /// Stato del controllo (in caso si tratti di una cella di una mappa per capire le posizioni delle altre navi)
     enum CellShotState shot_state;
-};
+} Cell;
 
 /// Rappresenta un giocatore
-struct Player{
+typedef struct Player{
     /// Nome del giocatore
     char name[10];
     /// Matrice della mappa del giocatore
@@ -50,6 +50,6 @@ struct Player{
     struct Cell adv_map[GRID_SIZE][GRID_SIZE];
     /// Numero di celle occupate da navi
     unsigned int boat_occuped_cells;
-};
+} Player;
 
 #endif //BATTAGLIANAVALE_GAME_CONSTR_H
