@@ -9,9 +9,9 @@
 #include "game_functions.c"
 
 // Primo giocatore
-struct Player player1;
+Player *player1;
 // Secondo giocatore
-struct Player player2;
+Player *player2;
 
 int main() {
     // Chiedo il nome del primo giocatore
