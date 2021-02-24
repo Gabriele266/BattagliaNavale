@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/BattagliaNavale.dir/main.c.o CMakeFiles/BattagliaNavale.dir/game_functions.c.o CMakeFiles/BattagliaNavale.dir/gen_utils.c.o  -o BattagliaNavale 
