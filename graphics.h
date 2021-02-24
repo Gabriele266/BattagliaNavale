@@ -9,6 +9,6 @@
 #include <stdio.h>
 #include <math.h>
 
-void stampaVista(int dati[][])
+void stampaVista(int dati[][]);
 
 #endif //BATTAGLIANAVALE_GRAPHICS_H
