@@ -1,3 +1,0 @@
-/home/gabriele/MEGA/Informatica/C/Progetti/BattagliaNavale/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/gabriele/MEGA/Informatica/C/Progetti/BattagliaNavale/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/gabriele/MEGA/Informatica/C/Progetti/BattagliaNavale/cmake-build-debug/CMakeFiles/BattagliaNavale.dir
