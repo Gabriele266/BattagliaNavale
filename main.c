@@ -18,10 +18,13 @@ int main() {
     // Scrivo l'introduzione del gioco
     printIntroduction();
 
-    // Chiedo il nome del primo giocatore
-    askPlayerName(&player1, 1);
-    // Chiedo il nome del secondo giocatore
-    askPlayerName(&player2, 2);
-
+//    // Chiedo il nome del primo giocatore
+//    askPlayerName(&player1, 1);
+//    // Chiedo il nome del secondo giocatore
+//    askPlayerName(&player2, 2);
+//    Cell c = inputCellCoordinates(true, "Inserire le coordinate di una cella di prova: ");
+//
+//    printf("X: %c" endl "Y: %d", c.column, c.row);
+    char c = getSafeChar("Inserire", 'A', 'G');
     return 0;
 }
