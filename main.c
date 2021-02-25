@@ -7,6 +7,7 @@
 #include <math.h>
 #include "game_constr.h"
 #include "game_functions.c"
+#include "graphics.h"
 
 // Primo giocatore
 Player *player1;
@@ -14,6 +15,9 @@ Player *player1;
 Player *player2;
 
 int main() {
+    // Scrivo l'introduzione del gioco
+    printIntroduction();
+
     // Chiedo il nome del primo giocatore
     askPlayerName(&player1, 1);
     // Chiedo il nome del secondo giocatore
