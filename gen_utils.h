@@ -24,5 +24,13 @@ int getSafeInt(char *message, int maximum_value);
  */
 int getInt(char *message);
 
+/**
+ * Prende in input un carattere applicando una politica di controllo
+ * @param message Messaggio da scrivere
+ * @param start_char Primo carattere della tabella ascii da accettare
+ * @param end_char Carattere massimo da accettare. Tutti quelli successivi non verranno accettati
+ * @return Il primo carattere che rispetta il criterio
+ */
+char getSafeChar(char *message, char start_char, char end_char);
 
 #endif //BATTAGLIANAVALE_GEN_UTILS_H
