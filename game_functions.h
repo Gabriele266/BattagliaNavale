@@ -10,7 +10,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include "game_constr.h"
+#include "gen_utils.h"
 #include <stdbool.h>
+#include "costants.h"
 
 /**
  * Prende in input il nome di un giocatore e lo assegna al giocatore passato come parametro
@@ -37,5 +39,13 @@ static bool removePlayer(Player* player);
  * @param player Un puntatore al giocatore per cui bisogna aggiungere una barca.
  */
 static void addBoat(struct Player *player);
+
+/**
+ * Prende in input una cella applicando una cerca politica.
+ * @param byNormalCoordinates Indica se utilizzare delle coordinate normali (es A4) o dei numeri
+ * @param message Il messaggio da scrivere
+ * @return La cella creata.
+ */
+static Cell inputCellCoordinates(bool byNormalCoordinates, char *message);
 
 #endif //BATTAGLIANAVALE_GAME_FUNCTIONS_H
